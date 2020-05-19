@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 
 // 00-props
-// import FunctionalCounter from './functional/00-props/Count';
-// import ClassicalCounter from './classical/00-props/Count';
+import FunctionalCounter from './functional/00-props/Count';
+import ClassicalCounter from './classical/00-props/Count';
 
 // 01-state
 // import FunctionalCounter from './functional/01-state/Count';
@@ -14,8 +14,12 @@ import './App.css';
 // import ClassicalCounter from './classical/02-simple-handler/Counter';
 
 // 03-handler-prop
-import FunctionalCounter from './functional/03-handler-prop/Counter';
-import ClassicalCounter from './classical/03-handler-prop/Counter';
+// import FunctionalCounter from './functional/03-handler-prop/Counter';
+// import ClassicalCounter from './classical/03-handler-prop/Counter';
+
+// 05-context
+// import FunctionalCounter from './functional/05-context/Counter';
+// import ClassicalCounter from './classical/05-context/Counter';
 
 
 function App() {
