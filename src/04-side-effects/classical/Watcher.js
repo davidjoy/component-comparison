@@ -6,6 +6,7 @@ export default class Watcher extends Component {
     height: window.innerHeight,
   }
 
+  // Bonus!  How could we reuse this watching logic in multiple components?
   handleResize = (event) => {
     this.setState({
       width: window.innerWidth,

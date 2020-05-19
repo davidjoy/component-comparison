@@ -5,6 +5,7 @@ export default function Watcher() {
   const [width, setWidth] = useState(window.innerWidth);
   const [height, setHeight] = useState(window.innerHeight);
 
+  // Bonus!  How could we reuse this watching logic in multiple components?
   const handleResize = (event) => {
     // Bonus!  Should we combine width/height into one state variable?  Should we not?
     setWidth(window.innerWidth);
