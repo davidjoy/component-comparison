@@ -24,6 +24,9 @@ import ClassicalCounter from './00-props/classical/Count';
 // import FunctionalCounter from './05-context/functional/Counter';
 // import ClassicalCounter from './05-context/classical/Counter';
 
+// 06-reducer
+// import FunctionalCounter from './06-reducer/functional/Counter';
+
 
 function App() {
   return (
