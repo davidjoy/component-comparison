@@ -6,7 +6,7 @@ export default class Count extends Component {
     return (
       // Bonus!  Is there another way consume the Context value in class-based components?
       <CounterContext.Consumer>
-        {({ count }) => count}
+        {({ count }) => <div>{count}</div>}
       </CounterContext.Consumer>
     );
   }

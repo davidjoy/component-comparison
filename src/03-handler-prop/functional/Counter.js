@@ -14,10 +14,11 @@ export default function Counter(props) {
     []
   );
 
+  console.log('rendering functional counter');
   return (
     <>
       <div>{count}</div>
-      <IncrementButton clickHandler={handleIncrementClick}/>
+      {React.memo(<IncrementButton clickHandler={handleIncrementClick}/>)}
     </>
   )
 }

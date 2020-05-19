@@ -16,6 +16,7 @@ export default class Counter extends Component {
   }
 
   render() {
+    console.log('rendering classical counter');
     return (
       <>
         <div>{this.state.count}</div>
