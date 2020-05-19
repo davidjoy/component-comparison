@@ -18,7 +18,8 @@ import ClassicalCounter from './00-props/classical/Count';
 // import ClassicalCounter from './classical/03-handler-prop/Counter';
 
 // 04-side-effects
-
+import ClassicalWatcher from './04-side-effects/classical/Watcher';
+import FunctionalWatcher from './04-side-effects/functional/Watcher';
 
 // 05-context
 // import FunctionalCounter from './05-context/functional/Counter';
@@ -29,10 +30,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>
+        <div style={{ marginBottom: '4rem' }}>
           Functional: <FunctionalCounter count={2} />
           <hr/>
           Classical: <ClassicalCounter count={2} />
+        </div>
+        <div>
+          Functional: <FunctionalWatcher />
+          <hr/>
+          Classical: <ClassicalWatcher />
         </div>
       </header>
     </div>
